@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$bgcolor: whitesmoke;
+$navh: 100px;
+$hovercolor: tomato;
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+
+nav{
+        box-shadow: 5px 5px 5px grey;
+        height: $navh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $bgcolor;
+        // flex-direction: column-reverse;
+
+        
+        .first{
+            img{
+                box-shadow: 3px 3px 3px grey;
+                &:hover{
+                    height: 70px;
+                    width: 70px;
+                }
+
+            }
+           
+        
+        }
+
+        // second child
+        .second{
+            a{
+                text-decoration: none;
+                margin-right: 20px;
+                &:hover{
+                    text-decoration: underline;
+                    color: $hovercolor;
+                }
+
+            }
+            
+            
+
+        // third child 
+        .third{
+            a{
+                i{
+
+                    font-size: 50px;
+                    margin-right: 20px;
+
+                    &:hover{
+
+                        color: $hovercolor;
+
+                    }
+                }
+            }
+            
+        }
+
+
+    }
+
+
+
+
+}}
